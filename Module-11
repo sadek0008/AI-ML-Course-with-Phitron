@@ -1,0 +1,25 @@
+import numpy as np
+arr= np.array([10,20,30,40])
+arr1= np.array([50,60,70,80])
+# arr=2 np.array([10,20,30,40])
+
+sum = np.add(arr,arr1)
+print(sum)
+
+sub = np.subtract(arr,arr1)
+print(sub)
+
+mul = np.multiply(arr,arr1)
+print(mul)
+
+div = np.divide(arr,arr1)
+print(div)
+
+log = np.log10(arr)
+print(log)
+
+root = np.sqrt(arr)
+print(root)
+
+c_sum = np.cumsum(arr)
+print(c_sum)
